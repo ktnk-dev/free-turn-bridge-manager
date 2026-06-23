@@ -10,7 +10,7 @@ def handler(message: Message):
     if not message.text: return ContinueHandling()
     print(message.text)
     if 'start' in message.text:
-        return bot.reply_to(message, 'Отправь <code>freeturn://</code> ссылку, и она будет сконвертирована')
+        return bot.reply_to(message, f'Отправь <code>freeturn://</code> ссылку, и она будет сконвертирована\nСервер запущен на порту <code>{getConfig().legacy_server_port}</code>')
         
     config = getConfig()
     try: vkturnproxy = convert(message.text, config.legacy_server_port, config.wrap_key)
