@@ -1,0 +1,14 @@
+<b>Ключ для Android приложения</b>
+<code>{freeturn_url}</code> 
+Скачать: <a href="https://github.com/samosvalishe/turn-proxy-android/releases/latest">GitHub</a>
+Как этим пользоваться: <a href="https://google.com">когда-нибудь потом напишу</a>
+
+<b>Ключ для iOS приложения</b>
+<code>{vkturnproxy_url}</code>
+Скачать: <a href="https://testflight.apple.com/join/ANm6cmDv">TestFlight</a>
+Как этим пользоваться: <a href="https://google.com">когда-нибудь потом напишу</a>
+
+<b>Важно!</b>
+Одновременно пользоваться этими ключами с нескольких устройств <i>запрещено</i>, включая одновременный запуск на Android и iOS
+
+<a href="https://github.com/ktnk-dev/free-turn-bridge-manager">Исходный код</a>

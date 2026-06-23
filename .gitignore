@@ -1,0 +1,10 @@
+# dev
+free-turn-proxy-opt-serverside
+vk-turn-proxy-legacy-opt-serverside
+schema-info
+
+# app
+.env
+__pycache__
+uv.lock
+docker-compose.dev.yml

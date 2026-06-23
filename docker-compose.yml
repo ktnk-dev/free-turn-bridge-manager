@@ -1,0 +1,11 @@
+x-volumes: &volumes
+  - /opt/free-turn-proxy:/opt/free-turn-proxy
+  - /opt/vk-turn-proxy-legacy:/opt/vk-turn-proxy-legacy
+
+services:
+  ft-manager:
+    build:
+      context: ./.
+      dockerfile: Dockerfile
+    volumes:
+      *volumes
